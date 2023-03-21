@@ -51,7 +51,9 @@
   margin: 2em;
   text-align: center;
   text-size-adjust: 20px;
-}
-.price{
+  border: 1px solid green;
+  border-radius: 10px;
+  width: 35em;
+  height: 28em;
   text-align: center;
 }

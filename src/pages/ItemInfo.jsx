@@ -20,12 +20,12 @@ function ItemInfo() {
         <>
         <div className = "contain">
         <p>{product.title}</p>
-        <p>{product.description}</p>
         <img src={product.images[0]} alt="" />
+        <p>{product.description}</p>
+        <p>Price : ${product.price}</p>
+        <p> Discount : {product.discountPercentage}%</p>
         </div>
             <div className="price">
-            <p>Price : ${product.price}</p>
-            <p> Discount : {product.discountPercentage}%</p>
             </div>
         </>
         }

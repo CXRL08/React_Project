@@ -1,6 +1,6 @@
 .card {
   border: 2px solid grey;
-  border-radius: 50px;
+  border-radius: 10px;
   width: 40em;
   height: 48em;
   margin-top: 100px;
@@ -37,12 +37,21 @@
   width: 130px;
   height: 25px;
   transition: all 0.1s ease;
-  transform: scale(1.03)
+  transform: scale(1.03);
+  color: white;
 }
 .discount{
   text-decoration: underline;
 }
 
 .title{
+  text-align: center;
+}
+.contain{
+  margin: 2em;
+  text-align: center;
+  text-size-adjust: 20px;
+}
+.price{
   text-align: center;
 }
